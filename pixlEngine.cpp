@@ -14,7 +14,7 @@ PixelEngine::Scene::Scene(int x, int y, std::string outFile)
     scene.flip_vertically();
 }
 
-void PixelEngine::Scene::drawPixel(int x, int y, const PixelEngine::PixelColor color)
+void PixelEngine::Scene::drawPixel(int x, int y, PixelColor color)
 {
     this->scene.set(x, y, color);
 }

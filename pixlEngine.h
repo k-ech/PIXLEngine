@@ -1,7 +1,4 @@
 #include "tgaimage.h"
-#include "vec2.h"
-#include "component.h"
-#include "triangle.h"
 
 using namespace PixelEngine;
 
